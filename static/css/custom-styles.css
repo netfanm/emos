@@ -8,3 +8,12 @@ body {
     width: 100%;
     background: #283643;
 }
+
+.top-navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 300;
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+}
