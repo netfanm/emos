@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../apps/bootstrap-3.3.7/.idea/bootstrap-3.3.7.iml" filepath="$PROJECT_DIR$/../apps/bootstrap-3.3.7/.idea/bootstrap-3.3.7.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/emos.iml" filepath="$PROJECT_DIR$/.idea/emos.iml" />
       <module fileurl="file://$PROJECT_DIR$/../apps/html/.idea/html.iml" filepath="$PROJECT_DIR$/../apps/html/.idea/html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../apps/jumpserver/.idea/jumpserver.iml" filepath="$PROJECT_DIR$/../apps/jumpserver/.idea/jumpserver.iml" />
     </modules>
   </component>
 </project>

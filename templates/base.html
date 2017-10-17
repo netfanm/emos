@@ -19,18 +19,43 @@
 
     <nav class="navbar-side" role="navigation">
         <div class="sidebar-collapse">
-            <ul class="nav">
+            <ul class="nav" id="main-menu">
                 <li>
                     <a class="active-menu"><i class="fa fa-dashboard"></i> 仪表盘</a>
                 </li>
                 <li>
-                    <a class="sidebar-menu"><i class="fa fa-sitemap"></i> 资产管理</a>
+                    <a class="sidebar-menu"><i class="fa fa-sitemap"></i> 资产管理<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="#">IDC信息</a>
+                        </li>
+                        <li>
+                            <a href="#">硬件信息</a>
+                        </li>
+                        <li>
+                            <a href="#">服务信息</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="sidebar-menu"><i class="fa fa-user"></i> 用户管理<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="#">用户</a>
+                        </li>
+                        <li>
+                            <a href="#">用户组</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </div>
     </nav>
 
 </div>
-
+    <script src="../static/js/jquery-1.10.2.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/custom.js"></script>
+    <script src="../static/js/jquery.metisMenu.js"></script>
 </body>
 </html>

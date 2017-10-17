@@ -9,7 +9,7 @@ li {
     text-align: -webkit-match-parent;
 }
 
-.top-navbar .navbar-brand:hover {
+.top-navbar .navbar-brand:hover,.top-navbar .navbar-brand:focus {
     color: #fff;
     background: #1593c4;
 }
@@ -64,6 +64,10 @@ li {
     background: none;
 }
 
+.sidebar-collapse .nav {
+    padding: 0;
+}
+
 .active-menu {
     background: rgb(37, 56, 63);
     color: rgb(212, 215, 225);
@@ -78,5 +82,36 @@ li {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px 0px 30px;
+    padding: 10px 15px 10px 30px;
+}
+
+.nav>li>a:hover,.nav>li>a:focus {
+    background: rgb(37, 56, 63);
+    color: rgb(212, 215, 225);
+    height: 45px;
+}
+
+.sidebar-collapse > .nav > li {
+	border-bottom: 1px solid rgba(107, 108, 109, 0.19);
+}
+
+ul.nav.nav-second-level.show {
+    background: #17191B;
+}
+.nav-second-level a {
+    color: rgb(212, 215, 225);
+    padding: 10px 20px 10px 45px !important;
+}
+
+.arrow {
+    float: right;
+    margin-top: 8px;
+}
+
+.fa.arrow:before {
+    content: "\f104";
+}
+
+.active > a > .fa.arrow:before {
+    content: "\f107";
 }
