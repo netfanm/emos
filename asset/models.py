@@ -10,3 +10,6 @@ class IDC(models.Model):
     count = models.IntegerField()
     price = models.CharField(max_length=20, verbose_name="价格")
 
+
+class Asset(models.Model):
+    name = models.CharField(max_length=32, verbose_name="IDC名称")
