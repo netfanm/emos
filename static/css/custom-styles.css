@@ -9,6 +9,10 @@ li {
     text-align: -webkit-match-parent;
 }
 
+h2 {
+    color: #1593c4;
+}
+
 .top-navbar .navbar-brand:hover,.top-navbar .navbar-brand:focus {
     color: #fff;
     background: #1593c4;
@@ -16,6 +20,22 @@ li {
  #wrapper {
     width: 100%;
     background: #f0f1f8;
+}
+
+ #page-wrapper {
+    width: 100%;
+     padding: 50px 0px 0px 250px;
+     background-color: #f0f1f8;
+     height: calc(100vh);
+
+ }
+
+ #page-inner {
+    width:100%;
+    margin:10px 20px 10px 0px;
+    background-color:transparent;
+    padding:10px;
+    min-height:1200px;
 }
 
 .navbar-default {
@@ -114,4 +134,26 @@ ul.nav.nav-second-level.show {
 
 .active > a > .fa.arrow:before {
     content: "\f107";
+}
+
+.page-heading {
+    padding: 0px 10px 20px 10px;
+    border-bottom: 2px solid #1593c4;
+}
+
+.panel-default {
+  border-color: #ECECEC;
+}
+.panel-default > .panel-heading {
+color: #000;
+border-color: #FFF;
+font-weight:bold;
+background: #FFFFFF;
+font-size: 16px;
+}
+.panel-heading {
+  padding: 15px 15px 0px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
