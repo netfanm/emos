@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row panel-heading">
+    <div class="col-md-12">
+        <h2>资产管理</h2>
+    </div>
+</div>
+<div id="page-inner">
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                IDC信息表
+            </div>
+            <div class="panel-body">
+                <div class="row" style="padding: 0px 0px 10px 0px">
+                    <div class="col-md-12">
+                        <form method="post">
+                            <div class="input-group col-md-2" style="float: right">
+                                <input class="form-control input-sm" type="text" name="keyword">
+                            <div class="input-group-btn ">
+                                <input class="btn btn-sm btn-info" type="submit" value="查询">
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <input type="checkbox">
+                                </th>
+                                <th>IDC名称</th>
+                                <th>IDC地址</th>
+                                <th>服务器类型</th>
+                                <th>服务器数量</th>
+                                <th>总价</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input type="checkbox">
+                                </td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <input type="button" class="btn btn-sm btn-info" value="添加">
+                        <input type="button" class="btn btn-sm btn-primary" value="编辑">
+                        <input type="button" class="btn btn-sm btn-danger" value="删除">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}
